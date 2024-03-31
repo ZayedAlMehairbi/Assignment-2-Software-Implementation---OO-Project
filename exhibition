@@ -1,0 +1,8 @@
+from datetime import datetime
+
+class Exhibition:
+    def __init__(self, title, location, startDate, endDate):
+        self.title = title
+        self.location = location
+        self.startDate = startDate
+        self.endDate = endDate
